@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrammarActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/grammar_a0"
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="0dp"
+        android:text="Present simple forms of ‘to be’ - am/is/are"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3sp"
+            android:layout_marginBottom="15sp"
+            android:text="Grammar"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/grammar_shop_card"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="15sp"
+            android:layout_marginBottom="12sp"
+            android:background="@drawable/empty_background"
+            android:contentDescription="words"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.984"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.333"
+            app:srcCompat="@drawable/shopping_cart"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4sp"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/grammar_shop_card"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/coin" />
+
+        <ImageView
+            android:id="@+id/ruby"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="4sp"
+            android:layout_toEndOf="@+id/textView3"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/grammar_shop_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ruby" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_toStartOf="@+id/coin"
+            android:text="1000"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/coin"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_toEndOf="@+id/coin"
+            android:text="100"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ruby"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginBottom="0sp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/grammar_learn"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_marginEnd="75sp"
+            android:layout_toStartOf="@+id/grammar_game"
+            android:background="@drawable/empty_background"
+            android:contentDescription="words"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/home"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/grammar_game"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2sp"
+            android:background="@drawable/empty_background"
+            android:contentDescription="words"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/grammar_about_us"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toEndOf="@+id/grammar_learn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/game"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/grammar_about_us"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:layout_marginStart="75sp"
+            android:layout_marginBottom="8sp"
+            android:layout_toEndOf="@+id/grammar_game"
+            android:background="@drawable/empty_background"
+            android:contentDescription="words"
+            android:scaleType="centerCrop"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/about_us"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="435sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="90sp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="435sp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="125sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/first_right"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/main_space"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/_2_the_present_simple_form_of_be"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/table1"
+                android:layout_width="wrap_content"
+                android:layout_height="430sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="30sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/table1_to_be"
+                android:contentDescription="@string/table_grammar1" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/table2"
+                android:layout_width="wrap_content"
+                android:layout_height="550sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="30sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/table2_to_be"
+                android:contentDescription="@string/table_grammar2" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/table3"
+                android:layout_width="wrap_content"
+                android:layout_height="270sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="30sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/table3_to_be"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/table4"
+                android:layout_width="wrap_content"
+                android:layout_height="270sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="30sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/table4_to_be"
+                android:contentDescription="@string/table_grammar4" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/table5"
+                android:layout_width="wrap_content"
+                android:layout_height="550sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="30sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/table5_to_be"
+                android:contentDescription="@string/table_grammar5" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="125sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/third_right"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="125sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/fourth_right"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="230sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/right_number_five"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="125sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/right_number_six"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="230sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/right_number_seven"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text="@string/right_number_eight"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/introducing_people"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/introducing_people"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Age_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/age"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Job_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/job"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Nationality_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/nationality"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Feelings_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/feelings"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Colour_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/colour"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Prices_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/prices"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Weather_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/weather"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Time_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/time"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Description_to_be"
+                android:layout_width="wrap_content"
+                android:layout_height="85sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:scaleType="centerCrop"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/description"
+                android:contentDescription="@string/table_grammar3" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginStart="15sp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/Exercises"
+                android:layout_width="wrap_content"
+                android:layout_height="60sp"
+                android:layout_marginStart="40sp"
+                android:layout_marginEnd="40sp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/empty_background"
+                android:textAlignment="center"
+                app:srcCompat="@drawable/exercises"
+                android:contentDescription="@string/table_grammar3" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

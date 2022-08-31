@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Easy_English_app</string>
+    <string name="a0_grammar_lessons_and_exercises">A0 Grammar lessons and exercises</string>
+    <string name="first_right">1. The present simple of the verb be has three forms:\n• I <font color='#D82828'>am</font>.\n• He/She/It <font color='#D82828'>is</font>.\n• You/We/They <font color='#D82828'>are</font>.</string>
+    <string name="third_right">3. We use <font color='#D82828'>he</font> for a man, <font color='#D82828'>she</font> for a woman, and <font color='#D82828'>it</font> for a thing: \n• He’s strong. \n• She’s beautiful. \n• I like this car. It’s very fast.</string>
+    <string name="fourth_right">4. We use <font color='#D82828'>they</font> for people and for things: \n• I love Christy and Jonas. They’re my friends. \n• I love these cars. They are very beautiful.</string>
+    <string name="right_number_five">5. We use <font color='#D82828'>‘m</font>, <font color='#D82828'>‘s</font> and <font color='#D82828'>‘re</font> with  personal pronouns (I, you, he, she, etc.): \n• I’m tired. \n• You’re funny. \n• She’s from America. \n But we can use <font color='#D82828'>‘s</font> with names: \n• Jessica’s beautiful. \n• London’s an expensive city. \n• Mark’s clever.</string>
+    <string name="right_number_six">6. We always need a subject before the verb: \n• It is hot (NOT Is hot) \n• Nevera is a fast car (NOT is a fast car)</string>
+    <string name="right_number_seven">7. We can only use contractions in negative short answer. Not in positive short answers: \n• Yes, I am (NOT Yes, I’m) \n• Yes, you are (NOT Yes, you’re) \n• Yes, he is (NOT Yes, he’s) \n• Yes, she is (NOT Yes, she’s) \n• Yes, we are (NOT Yes, we’re) \n• Yes, they are ( Not Yes, they’re)</string>
+    <string name="right_number_eight">8. Different uses of be</string>
+    <string name="_2_the_present_simple_form_of_be">2. The present simple form of be</string>
+    <string name="table_grammar1">table_grammar1</string>
+    <string name="table_grammar2" />
+    <string name="table_grammar3" />
+    <string name="table_grammar4" />
+    <string name="table_grammar5" />
+    <string-array name="Is_are">
+        <item>Is</item>
+        <item>Are</item>
+    </string-array>
+    <string-array name="Am_m_are">
+        <item>am</item>
+        <item>'m</item>
+        <item>are</item>
+    </string-array>
+    <string-array name="is_s_are">
+        <item>is</item>
+        <item>'s</item>
+        <item>are</item>
+    </string-array>
+    <string-array name="s_are">
+        <item>'s</item>
+        <item>are</item>
+    </string-array>
+    <string-array name="s_is">
+        <item>'s</item>
+        <item>is</item>
+    </string-array>
+    <string-array name="I_Im">
+        <item>I</item>
+        <item>I'm</item>
+    </string-array>
+    <string-array name="Shes_hes_is">
+        <item>she's</item>
+        <item>he's</item>
+        <item>is</item>
+    </string-array>
+    <string-array name="its_iam">
+        <item>it's</item>
+        <item>I am</item>
+    </string-array>
+</resources>
