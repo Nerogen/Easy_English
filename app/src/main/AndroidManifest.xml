@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Easy_English_app"
         tools:targetApi="31">
         <activity
+            android:name=".ListeningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Authorization"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
             android:name=".GrammarExercisesToBe"
             android:exported="false" />
         <activity

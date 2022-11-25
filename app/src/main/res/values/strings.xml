@@ -18,35 +18,35 @@
         <item>Is</item>
         <item>Are</item>
     </string-array>
-    <string-array name="Am_m_are">
-        <item>am</item>
-        <item>'m</item>
-        <item>are</item>
-    </string-array>
-    <string-array name="is_s_are">
-        <item>is</item>
-        <item>'s</item>
-        <item>are</item>
-    </string-array>
-    <string-array name="s_are">
-        <item>'s</item>
-        <item>are</item>
-    </string-array>
-    <string-array name="s_is">
-        <item>'s</item>
-        <item>is</item>
-    </string-array>
-    <string-array name="I_Im">
-        <item>I</item>
-        <item>I'm</item>
-    </string-array>
-    <string-array name="Shes_hes_is">
-        <item>she's</item>
-        <item>he's</item>
-        <item>is</item>
-    </string-array>
-    <string-array name="its_iam">
-        <item>it's</item>
-        <item>I am</item>
-    </string-array>
+    <!--    <string-array name="Am_m_are">-->
+    <!--        <item>am</item>-->
+    <!--        <item>`m</item>-->
+    <!--        <item>are</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="is_s_are">-->
+    <!--        <item>is</item>-->
+    <!--        <item>`s</item>-->
+    <!--        <item>are</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="s_are">-->
+    <!--        <item>`s</item>-->
+    <!--        <item>are</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="s_is">-->
+    <!--        <item>`s</item>-->
+    <!--        <item>is</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="I_Im">-->
+    <!--        <item>I</item>-->
+    <!--        <item>I`m</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="Shes_hes_is">-->
+    <!--        <item>she`s</item>-->
+    <!--        <item>he`s</item>-->
+    <!--        <item>is</item>-->
+    <!--    </string-array>-->
+    <!--    <string-array name="its_iam">-->
+    <!--        <item>it`s</item>-->
+    <!--        <item>I am</item>-->
+    <!--    </string-array>-->
 </resources>
