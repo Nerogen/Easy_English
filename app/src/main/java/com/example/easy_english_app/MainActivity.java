@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         listeningButton = findViewById(R.id.listening_button);
         wordsButton = findViewById(R.id.words_button);
         readingButton = findViewById(R.id.reading_button);
-        gameButton = findViewById(R.id.grammar_game);
-        analyticsButton = findViewById(R.id.grammar_about_us);
+        gameButton = findViewById(R.id.grammar_game_s);
+        analyticsButton = findViewById(R.id.grammar_about_us_s);
 
         grammarButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +52,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        gameButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToGame(view);
+            }
+        });
+
+        analyticsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToAnalytics(view);
+            }
+        });
+
     }
 
     private void goToGrammar(View view) {
@@ -74,14 +88,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-//    private void goToGame(View view) {
-//        Intent intent = new Intent(this, GrammarActivity.class);
-//        startActivity(intent);
-//    }
-//
-//    private void goToAnalytics(View view) {
-//        Intent intent = new Intent(this, GrammarActivity.class);
-//        startActivity(intent);
-//    }
+    private void goToGame(View view) {
+        Intent intent = new Intent(this, Game.class);
+        startActivity(intent);
+    }
+
+    private void goToAnalytics(View view) {
+        Intent intent = new Intent(this, Analytics.class);
+        startActivity(intent);
+    }
 
 }

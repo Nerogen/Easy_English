@@ -9,8 +9,7 @@ import android.widget.ImageButton;
 
 public class GrammarActivity extends AppCompatActivity {
 
-    ImageButton goHomeButton;
-    ImageButton toBe;
+    ImageButton toBe, thisThat, ajectives, plurals, goHomeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +17,9 @@ public class GrammarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_grammar);
 
         goHomeButton = findViewById(R.id.grammar_learn);
+        thisThat = findViewById(R.id.this_that);
+        ajectives = findViewById(R.id.adjectives);
+        plurals = findViewById(R.id.plurals);
         toBe = findViewById(R.id.to_be);
 
         goHomeButton.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +36,26 @@ public class GrammarActivity extends AppCompatActivity {
             }
         });
 
+        thisThat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToThisThat(view);
+            }
+        });
+
+        ajectives.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToAdjectives(view);
+            }
+        });
+
+        plurals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToPlurals(view);
+            }
+        });
 
     }
 
@@ -44,6 +66,21 @@ public class GrammarActivity extends AppCompatActivity {
 
     private void goToBe(View view) {
         Intent intent = new Intent(this, GrammarActivityToBe.class);
+        startActivity(intent);
+    }
+
+    private void goToThisThat(View view) {
+        Intent intent = new Intent(this, GrammarThisThere.class);
+        startActivity(intent);
+    }
+
+    private void goToAdjectives(View view) {
+        Intent intent = new Intent(this, GrammarAdjectives.class);
+        startActivity(intent);
+    }
+
+    private void goToPlurals(View view) {
+        Intent intent = new Intent(this, GrammarPlurals.class);
         startActivity(intent);
     }
 

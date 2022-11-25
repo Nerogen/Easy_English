@@ -224,7 +224,7 @@
             android:layout_width="45sp"
             android:layout_height="45sp"
             android:layout_marginEnd="75sp"
-            android:layout_toStartOf="@+id/grammar_game"
+            android:layout_toStartOf="@+id/grammar_game_s"
             android:background="@drawable/empty_background"
             android:contentDescription="words"
             android:scaleType="centerCrop"
@@ -235,7 +235,7 @@
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
-            android:id="@+id/grammar_game"
+            android:id="@+id/grammar_game_s"
             android:layout_width="45sp"
             android:layout_height="45sp"
             android:layout_alignParentTop="true"
@@ -245,7 +245,7 @@
             android:contentDescription="words"
             android:scaleType="centerCrop"
             android:textAlignment="center"
-            app:layout_constraintEnd_toStartOf="@+id/grammar_about_us"
+            app:layout_constraintEnd_toStartOf="@+id/grammar_about_us_s"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toEndOf="@+id/grammar_learn"
             app:layout_constraintTop_toTopOf="parent"
@@ -253,12 +253,12 @@
             tools:ignore="TouchTargetSizeCheck" />
 
         <ImageButton
-            android:id="@+id/grammar_about_us"
+            android:id="@+id/grammar_about_us_s"
             android:layout_width="45sp"
             android:layout_height="45sp"
             android:layout_marginStart="75sp"
             android:layout_marginBottom="8sp"
-            android:layout_toEndOf="@+id/grammar_game"
+            android:layout_toEndOf="@+id/grammar_game_s"
             android:background="@drawable/empty_background"
             android:contentDescription="words"
             android:scaleType="centerCrop"
