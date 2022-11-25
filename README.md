@@ -1,1 +1,3 @@
-# Easy_English_app
+# must have 
+#### jdk
+#### android studio
