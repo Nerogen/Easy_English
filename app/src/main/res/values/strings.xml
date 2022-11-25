@@ -14,6 +14,23 @@
     <string name="table_grammar3" />
     <string name="table_grammar4" />
     <string name="table_grammar5" />
+    <string name="this_that_1">1. We use <font color='#D82828'>this</font> and <font color='#D82828'>these</font> for things that are <font color='#D82828'>here</font>(near). <font color='#D82828'>This</font> is singular and <font color='#D82828'>these</font> is plural:\n <font color='#D82828'>This</font> is my new watch.\n <font color='#D82828'>These</font> are my cars.</string>
+    <string name="this_that_2">2. We use <font color='#D82828'>that</font> and <font color='#D82828'>those</font> for things that are <font color='#D82828'>there</font>(not near). That is singular and <font color='#D82828'>those</font> is plural:\n<font color='#D82828'>That</font> man is very fast.\n I need <font color='#D82828'>those</font> boxes over there.</string>
+    <string name="this_that_3">3. We can use this, that, these, those with a noun(this box, that car, etc.) or without a noun:\n<font color='#D82828'>This</font> watch is very expensive.\nI like <font color='#D82828'>that</font> woman in the park.\nWho is <font color='#D82828'>that</font>?(=<font color='#D82828'>that</font> person).</string>
+    <string name="this_that_4">4. We use <font color='#D82828'>this is</font> when we introduce people and on the telephone:\nHi <font color='#D82828'>this is</font> Tim(Tim on the telephone).</string>
+    <string name="edjectives_1">1. We use subject pronouns + verb and we use possessive adjectives + noun:\nThese are Cris and Margaret, <font color='#D82828'>they</font> are from London.\n<font color='#D82828'>I</font> love <font color='#D82828'>my</font> car.</string>
+    <string name="edjectives_2">2. Adjectives in English have no plural form. Possessive adjectives are always singular:\nThese are t<font color='#D82828'>their</font> suitcases. (NOT theirs suitcases)</string>
+    <string name="edjectives_3">3. We use <font color='#D82828'>he-his</font> and <font color='#D82828'>she-her</font> for people, and we use <font color='#D82828'>it-its</font> for things. But in the plural, we use <font color='#D82828'>they-their</font> for people and things:\nI like those cars, <font color='#D82828'>they</font> are beautiful. But <font color='#D82828'>their</font> technology is outdated.</string>
+    <string name="edjectives_4">4. We use <font color='#D82828'>hit’s</font>(=<font color='#D82828'>hit is</font>) to talk about the time or the weather:\n<font color='#D82828'>hIt’s</font> very cold today, but <font color='#D82828'>hit’s</font> sunny.\n‘What time <font color='#D82828'>his it</font>?’ ‘<font color='#D82828'>hIt’s</font> three o’clock.</string>
+    <string name="edjectives_5">5. <font color='#D82828'>Its</font> = possessive adjective. <font color='#D82828'>It’s</font> = <font color='#D82828'>it is</font> (subject + verb be):\nLook at that corgi. It’s beautiful.\n I like <font color='#D82828'>its</font> ears.</string>
+    <string name="plurals_1">1. We use <font color='#D82828'>a/an with</font> singular nouns:\nThis is <font color='#D82828'>a car</font>.\nIt’s <font color='#D82828'>an apple</font>.</string>
+    <string name="plurals_2">2. We use <font color='#D82828'>a</font> with nouns beginning with a consonant, and we use <font color='#D82828'>an</font> with nouns beggining with a vovel(a, e, i, o, u):\nGive me <font color='#D82828'>an o</font>range.\nIt’s <font color='#D82828'>an a</font>mazing experience.</string>
+    <string name="plurals_3">3. We also use <font color='#D82828'>an</font> with nouns beginning with <font color='#D82828'>h</font> it the <font color='#D82828'>h</font> is not pronounced. But we use <font color='#D82828'>a</font> if the <font color='#D82828'>h</font> is pronounced:\nGive me <font color='#D82828'>an h</font>our(The <font color='#D82828'>h</font> is not pronounced in hour).\nI want wear <font color='#D82828'>a h</font>at(The <font color='#D82828'>h></font> is pronounced in hat).</string>
+    <string name="plurals_4">4. We use a and NOT an with nouns beginning with u when it pronounced [ju:], like university:\nI wear <font color='#D82828'>a u</font>niform.</string>
+    <string name="plurals_5">5. We do not use <font color='#D82828'>a/an</font> with plural nouns:\nThese are cars(NOT a cars).</string>
+    <string name="plurals_6">6. We add <font color='#D82828'>-s</font> to make plural nouns in English. Some times we need to add -es, -ies or -ves. Check the spelling in the table.</string>
+    <string name="plurals_7">7. Some words have irregular plurals and do NOT add <font color='#D82828'>-s</font> to make their plural form.</string>
+
     <string-array name="Is_are">
         <item>Is</item>
         <item>Are</item>

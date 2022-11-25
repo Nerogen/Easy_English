@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListeningActivity">
+    tools:context=".ReadingActivity">
 
     <ImageView
         android:id="@+id/background"
@@ -28,6 +28,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background" />
 
+
     <TextView
         android:id="@+id/grammar_a0"
         android:layout_width="match_parent"
@@ -36,7 +37,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="75dp"
-        android:text="A0 Listening and tests"
+        android:text="A0 Reading and tests"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="21sp"
@@ -234,7 +235,7 @@
                 android:contentDescription="to_be"
                 android:scaleType="centerCrop"
                 android:textAlignment="center"
-                app:srcCompat="@drawable/your_job" />
+                app:srcCompat="@drawable/my_summer" />
 
         </LinearLayout>
 
@@ -242,3 +243,4 @@
 
 
 </RelativeLayout>
+
